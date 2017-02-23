@@ -1,0 +1,33 @@
+@import url(https://fonts.googleapis.com/css?family=Michroma|Oswald);
+/* start of desktop styles */
+* {
+  background-color: black;
+  color: #1414ff;
+  font-family: 'Michroma', sans-serif;
+}
+body{
+  font-size:1.3em;
+}
+}
+
+
+@media screen and (max-width: 991px) {
+     /* start of large tablet styles */
+body {
+  font-size:1.2em;
+}
+}
+
+@media screen and (max-width: 767px) {
+     /* start of medium tablet styles */
+body {
+  font-size:1.1em;
+}
+}
+
+@media screen and (max-width: 479px) {
+     /* start of phone styles */
+body {
+  font-size:1.0em;
+}
+}

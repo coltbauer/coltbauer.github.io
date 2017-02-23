@@ -3,10 +3,12 @@
 
 /* start of desktop styles */
 * {
+  width:350px;	
   margin: 0;
   padding: 0;
   list-style: none;
   vertical-align: baseline;
+  font-weight:400;
 }
 
 div {
@@ -18,11 +20,9 @@ body {
   background-color: black;
   color: #1414ff;
   font-family: 'Michroma', sans-serif;
-  font-weight: 400;
 }
 
 .footer {
-  width: 450px;
   text-align: center;
   display: block;
   margin: 15px auto 30px auto;
@@ -30,7 +30,6 @@ body {
   color: #fff;
 }
 .footer a {
-  font-weight: 400;
   text-decoration: none;
   color: #fff;
 }
@@ -39,17 +38,14 @@ body {
   border-radius: 3px;
   position: relative;
   margin: 8% auto auto auto;
-  width: 500px;
   padding: 40px 40px;
   display: table;
   background-color: rgba(0, 0, 0, 0.4);
 }
 .quote-box .quote-text {
   text-align: left;
-  width: 500px;
   height: auto;
   clear: both;
-  font-weight: 400;
   font-size: 1.75em;
 }
 .quote-box .quote-text i {
@@ -57,7 +53,6 @@ body {
   margin-right: 0.4em;
 }
 .quote-box .quote-author {
-  width: 500px;
   height: auto;
   clear: both;
   padding-top: 20px;
@@ -66,7 +61,6 @@ body {
   font-family: 'Oswald', sans-serif;
 }
 .quote-box .buttons {
-  width: 500px;
   margin: auto;
   display: block;
 }
@@ -100,7 +94,6 @@ body {
   font-size: 1.2em;
   height: 40px;
 }
-
 
 
 
