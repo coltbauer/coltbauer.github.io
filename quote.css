@@ -1,4 +1,7 @@
+
 @import url(https://fonts.googleapis.com/css?family=Michroma|Oswald);
+
+/* start of desktop styles */
 * {
   margin: 0;
   padding: 0;
@@ -96,4 +99,22 @@ body {
   text-align: center;
   font-size: 1.2em;
   height: 40px;
+}
+
+
+
+
+@media screen and (max-width: 991px) {
+     /* start of large tablet styles */
+
+}
+
+@media screen and (max-width: 767px) {
+     /* start of medium tablet styles */
+
+}
+
+@media screen and (max-width: 479px) {
+     /* start of phone styles */
+
 }
