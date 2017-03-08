@@ -1,33 +1,40 @@
 @import url(https://fonts.googleapis.com/css?family=Michroma|Oswald);
 /* start of desktop styles */
-* {
-  background-color: black;
-  color: #1414ff;
-  font-family: 'Michroma', sans-serif;
-}
-body{
-  font-size:1.3em;
-}
+
+  /* background-color: black; 
+  color: #1414ff; */
+
+* { font-family: 'Michroma', sans-serif; }
+p { font-family: 'Oswald', sans-serif; }
+
+html { font-size:62.5%; }
+body { font-size:1.4rem; }
+
+
+
+.jumbotron { 
+    background-color: rgb(50,50,255); /* Orange */
+    color: rgb(255,255,255);
 }
 
 
 @media screen and (max-width: 991px) {
      /* start of large tablet styles */
 body {
-  font-size:1.2em;
+  font-size:1.2rem;
 }
 }
 
 @media screen and (max-width: 767px) {
      /* start of medium tablet styles */
 body {
-  font-size:1.1em;
+  font-size:1.0rem;
 }
 }
 
 @media screen and (max-width: 479px) {
      /* start of phone styles */
 body {
-  font-size:1.0em;
+  font-size:0.8rem;
 }
 }
