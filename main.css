@@ -21,9 +21,9 @@ p { font-size:1.6rem; }
 .big-text-button{ font-size:2.0rem; }
 
 
-.jumbotron { padding: 60px 25px 40px 25px; }
-.container-fluid { padding: 60px 50px; }
-.self-portrait { padding: 0px; }
+/*.jumbotron { padding: 60px 25px 40px 25px; }*/
+.container-fluid { padding: 50px 100px; }
+
 
 .thumbnail {
     padding: 0 0 15px 0;
@@ -68,7 +68,7 @@ p { font-size:1.6rem; }
 .navbar {
     margin-bottom: 0;
     background-color: rgb(255,255,255);
-    z-index: 9999;
+    z-index: 9998;
     border: 0;
     font-size: 1.4rem !important;
     line-height: 1.42857143 !important;
@@ -133,11 +133,13 @@ p { font-size:1.6rem; }
 
 @media screen and (max-width: 991px) {
      /* start of large tablet styles */
-
+    .container-fluid { padding: 50px 80px; }
 }
 
 @media screen and (max-width: 767px) {
      /* start of medium tablet styles */
+	 .container-fluid { padding: 50px 60px; }
+	 
     .sm-screen-center{
         text-align: center;
         margin: 25px 0;
@@ -146,5 +148,5 @@ p { font-size:1.6rem; }
 
 @media screen and (max-width: 479px) {
      /* start of phone styles */
-
+    .container-fluid { padding: 50px 40px; }
 }
