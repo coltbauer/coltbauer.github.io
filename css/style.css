@@ -58,11 +58,20 @@ body,
 .linkedin-color { color: rgb(0,123,182); }
 .github-color { color: black; }
 
+.headline-title { font-size:3.0rem;	}
 .skill-title { font-size: 1.2rem; }
 .skill-badge { font-size: 0.8rem; }
 .navbar-brand { font-size: 1.5rem; }
+.developed-by-group { font-size: 1.0rem; }
 
-.fa-stack { margin-right: 20px; }
+.view { text-shadow: 0 0 4px black; }
+.skill-title { text-shadow: 0 0 2px black; }
+.skill-badge { text-shadow: 0 0 2px black; }
+.navbar-brand { text-shadow: 0 0 4px black; }
+.developed-by-group { text-shadow: 0 0 4px black; }
+.social-icons-group { text-shadow: 0 0 10px white; }
+
+.social-icon-pad { margin-right: 20px; }
 .social-icons-group { margin-top: 8px; }
 .developed-by-group { margin-top: 2px; }
 .footer-nav-group { max-height: 64px; }
