@@ -6,6 +6,8 @@ body,
     height: 100%;
 }
 
+
+
 .view {
     background: url("../img/IMAG0135.jpg")no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -45,4 +47,17 @@ body,
         background-color: #1C2331;
     }
 }
-.card { background-color: rgba(0,0,0,.33); }
+
+
+
+.facebook-color { color: rgb(59,89,152); }
+.twitter-color { color: rgb(0,182,241); }
+.googleplus-color { color: rgb(223,74,50); }
+.youtube-color { color: rgb(179,18,23); }
+.linkedin-color { color: rgb(0,123,182); }
+.github-color { color: black; }
+
+.skill-title { font-size: 1.2rem; }
+.skill-badge { font-size: 0.8rem; }
+
+.fa-stack { margin-left: 20px; }
