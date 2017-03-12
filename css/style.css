@@ -28,6 +28,9 @@ body,
 .navbar {
     background-color: transparent;
 }
+.page-footer {
+    background-color: transparent;
+}
 
 .navbar-dark .navbar-nav .nav-link {
     color: #fff;
@@ -43,9 +46,7 @@ body,
 }
 
 @media only screen and (max-width: 768px) {
-    .navbar {
-        background-color: #1C2331;
-    }
+
 }
 
 
@@ -59,5 +60,11 @@ body,
 
 .skill-title { font-size: 1.2rem; }
 .skill-badge { font-size: 0.8rem; }
+.navbar-brand { font-size: 1.5rem; }
 
-.fa-stack { margin-left: 20px; }
+.fa-stack { margin-right: 20px; }
+.social-icons-group { margin-top: 8px; }
+.developed-by-group { margin-top: 2px; }
+.footer-nav-group { max-height: 64px; }
+
+
