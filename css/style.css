@@ -20,10 +20,7 @@ body,
     color: #fff;
 }
 
-#contact .fa {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-}
+
 
 .navbar {
     background-color: transparent;
@@ -63,6 +60,11 @@ body,
 .skill-badge { font-size: 0.8rem; }
 .navbar-brand { font-size: 1.5rem; }
 .developed-by-group { font-size: 1.0rem; }
+#contact .fa {
+    font-size: 1.0rem;
+    margin-left: -1rem;
+	margin-right: 1rem;
+}
 
 .view { text-shadow: 0 0 4px black; }
 .skill-title { text-shadow: 0 0 2px black; }
@@ -74,6 +76,7 @@ body,
 .social-icon-pad { margin-right: 20px; }
 .social-icons-group { margin-top: 8px; }
 .developed-by-group { margin-top: 2px; }
+.contact-form { margin-bottom: 150px; }
+.self-portrait { margin-top: -40px; }
+
 .footer-nav-group { max-height: 64px; }
-
-

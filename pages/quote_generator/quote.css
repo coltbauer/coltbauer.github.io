@@ -2,8 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Michroma|Oswald);
 
 /* start of desktop styles */
-* {
-  width:350px;	
+* {	
   margin: 0;
   padding: 0;
   list-style: none;
@@ -21,6 +20,14 @@ body {
   color: #1414ff;
   font-family: 'Michroma', sans-serif;
 }
+
+.header {
+  text-align: center;
+  display: block;
+  margin: 15px auto 30px auto;
+  color: #fff;
+}
+
 
 .footer {
   text-align: center;
