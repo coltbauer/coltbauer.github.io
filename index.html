@@ -449,17 +449,21 @@
                 <!--Second column-->
                 <div class="col-sm-8">
 				    <div class="wow fadeInUp contact-form">
-   			        <form>
+   			        <form action="http://formspree.io/bauercolt@gmail.com" method="POST">
 				    <h3>Say Hello!</h3>	
 				    <input type="text" class="form-control" placeholder="Your Name" required>
-                    <input type="email" class="form-control" placeholder="Your Email Address" required>
+                    <input type="email" name="_replyto" class="form-control" placeholder="Your Email Address" required>
 					<div>
 					    <h3>Your Message:</h3>
 					</div>
-                    <textarea class="form-control" rows="5" id="comment" placeholder="I love your work and am interested in hiring you!" required></textarea>
-				    <button type="button" class="btn btn-danger pull-right">
+                    <textarea name="body" class="form-control" rows="5" id="comment" placeholder="I love your work and am interested in hiring you!" required></textarea>
+				    <input type="submit" value="Send">
+					
+					<!--
+					<button type="button" class="btn btn-danger pull-right">
 					    <span><i class="fa fa-paper-plane" ></i></span> <strong>SEND</strong>
 				    </button>
+					-->
 				    </form>
 					</div>
                 </div>
