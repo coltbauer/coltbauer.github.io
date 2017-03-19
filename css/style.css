@@ -47,25 +47,45 @@ body,
 }
 
 
-
-.facebook-color { color: rgb(59,89,152); }
-.twitter-color { color: rgb(0,182,241); }
-.googleplus-color { color: rgb(223,74,50); }
-.youtube-color { color: rgb(179,18,23); }
-.linkedin-color { color: rgb(0,123,182); }
-.github-color { color: black; }
+.color-white { color: white; }
+.color-facebook { color: rgb(59,89,152); }
+.color-twitter { color: rgb(0,182,241); }
+.color-googleplus { color: rgb(223,74,50); }
+.color-youtube { color: rgb(179,18,23); }
+.color-linkedin { color: rgb(0,123,182); }
+.color-github { color: black; }
 
 html { font-size: 62.5%; }
-p { font-size:1.6rem; }
+body {  font-size: 1.6rem; }
 .headline-title { font-size:3.2rem;	}
 .skill-title { font-size: 2.4rem; }
 .skill-badge { font-size: 1.6rem; }
 .navbar-brand { font-size: 1.6rem; }
 .developed-by-group { font-size: 1.6rem; }
-.nav-link { 
-    font-size: 1.6rem;
-    font-weight:bold; 
+
+
+.bottom-menu-item { 
+    margin-right: 2.0rem; 
+    margin-top: 0.0rem;
 }
+
+.bottom-menu-icon {
+	font-size : 4.0rem;
+	margin-top: 1.0rem;
+    color: white;
+}
+.bottom-menu-label { 
+    font-size: 1.4rem;
+    font-weight: bold; 
+	color: white;
+	text-align:center;
+	text-shadow: 0 0 0.5rem black;
+	margin-top: 2.8rem;
+}
+
+
+
+
 #contact .fa {
     font-size: 1.6rem;
     margin-left: -1.6rem;
@@ -73,18 +93,17 @@ p { font-size:1.6rem; }
 }
 
 
-.view { text-shadow: 0 0 4px black; }
-.skill-title { text-shadow: 0 0 2px black; }
-.skill-badge { text-shadow: 0 0 2px black; }
-.navbar-brand { text-shadow: 0 0 4px black; }
-.developed-by-group { text-shadow: 0 0 4px black; }
-.social-icons-group { text-shadow: 0 0 10px white; }
+.view { text-shadow: 0 0 0.4rem black; }
+.skill-title { text-shadow: 0 0 0.2rem black; }
+.skill-badge { text-shadow: 0 0 0.2rem black; }
+.navbar-brand { text-shadow: 0 0 0.4rem black; }
+.developed-by-group { text-shadow: 0 0 0.4rem black; }
+.glow-white { text-shadow: 0 0 1.0rem white; }
 
-.social-icon-pad { margin-right: 20px; }
-.social-icons-group { margin-top: 8px; }
-.developed-by-group { margin-top: 2px; }
-.contact-form { margin-bottom: 150px; }
-.self-portrait { margin-top: -40px; }
 
-.footer-nav-group { max-height: 64px; }
+.developed-by-group { margin-top: 0.2rem; }
+.contact-form { margin-bottom: 15.0rem; }
+.self-portrait { margin-top: -4.0rem; }
+
+.footer-nav-group { max-height: 10rem; }
 
