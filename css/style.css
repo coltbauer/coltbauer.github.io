@@ -64,22 +64,20 @@ body {  font-size: 1.6rem; }
 .developed-by-group { font-size: 1.6rem; }
 
 
-.bottom-menu-item { 
-    margin-right: 0.5rem;
-    margin-left: 0.5rem;	
-    margin-top: 0.0rem;
+.bottom-menu-item {   
+	
 }
-
 .bottom-menu-icon {
+	text-align:center;
 	font-size : 4.0rem;
 	margin-top: 1.0rem;
     color: white;
 }
 .bottom-menu-label { 
+    text-align:center;
     font-size: 1.4rem;
     font-weight: bold; 
 	color: white;
-	text-align:center;
 	text-shadow: 0 0 0.5rem black;
 	margin-top: 2.8rem;
 }
@@ -106,5 +104,5 @@ body {  font-size: 1.6rem; }
 .contact-form { margin-bottom: 15.0rem; }
 .self-portrait { margin-top: -4.0rem; }
 
-.footer-nav-group { max-height: 10rem; }
-
+.top-menu-bar { max-height: 8rem; }
+.bottom-menu-bar { max-height: 8rem; }
