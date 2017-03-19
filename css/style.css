@@ -65,7 +65,8 @@ body {  font-size: 1.6rem; }
 
 
 .bottom-menu-item { 
-    margin-right: 2.0rem; 
+    margin-right: 0.6rem;
+    margin-left: 0.6rem;	
     margin-top: 0.0rem;
 }
 
