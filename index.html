@@ -58,17 +58,17 @@
 
     <!--Header Navbar-->
     <nav class="navbar navbar-dark scrolling-navbar fixed-top">
-        <div class="container d-inline-flex" >	
+        <div class="container d-inline-flex top-menu-container" style="padding:0px; margin:0px; width:100%" >	
             <a class="navbar-brand" href="#">
 				<img src="img/logo2.png" width="48">
                 <!--<b>Colt Bauer</b>-->
             </a>
 			
 
-			<ul class="ml-auto list-inline">
+			<ul class="ml-auto list-inline" style="margin:0px;">
                 <li class="list-inline-item">
                     <a href="http://www.linkedin.com/in/colt-bauer" target="_blank">
-		                <span class="fa-stack glow-white bottom-menu-item">
+		                <span class="fa-stack social-menu-item">
 			                <span class="fa fa-square fa-stack-1x fa-3x" style="color:white;"></span>
 		                    <span class="fa fa-linkedin-square fa-stack-1x fa-3x color-linkedin"></span>
 			            </span>
@@ -76,7 +76,7 @@
                 </li>
                 <li class="list-inline-item">
                     <a href="http://www.github.com/coltbauer/" target="_blank">
-                  		<span class="fa-stack glow-white bottom-menu-item">
+                  		<span class="fa-stack social-menu-item">
 			                <span class="fa fa-square fa-stack-1x fa-3x" style="color:white;"></span>
 		                    <span class="fa fa-github-square fa-stack-1x fa-3x color-github"></span>
 						</span>
@@ -84,34 +84,37 @@
                 </li>
                 <li class="list-inline-item">
 		          	<a href="http://www.facebook.com/bauercolt" target="_blank">
-		                <span class="fa-stack glow-white bottom-menu-item">
+		                <span class="fa-stack social-menu-item">
 		         	        <span class="fa fa-square fa-stack-1x fa-3x" style="color:white;"></span>			
 		         	        <span class="fa fa-facebook-official fa-stack-1x fa-3x color-facebook"></span>
 						</span>
 		            </a>			
                 </li>
 				<li class="list-inline-item">
-                    <a href="#contact">
-					    <span class="fa-stack fa-2x bottom-menu-item">
-						    <span class="fa fa-square fa-stack-2x glow-white" style="color:blue;"></span>
-							<span class="fa fa-gears fa-stack-2x bottom-menu-icon"></span>
-		                    <span class="fa-stack-2x bottom-menu-label">SETTINGS</span>
-			            </span>
-                    </a>
+
                 </li>
-            </ul>    
+            </ul>
+            <div class="bottom-menu-item">
+                <a href="#contact">
+					<span class="fa-stack fa-2x bottom-menu-fixed-area">
+			     	    <span class="fa fa-square fa-stack-2x bottom-menu-box"></span>
+						<span class="fa fa-gears fa-stack-2x bottom-menu-icon"></span>
+		                <span class="fa-stack-2x bottom-menu-label">SETTINGS</span>
+			        </span>
+                    </a>
+			</div>
         </div>
     </nav>
     <!--/Header Navbar-->
 	
 	<!--Footer Navbar-->
-    <nav class="navbar navbar-dark scrolling-navbar fixed-bottom bottom-menu-bar">
-        <div class="container d-inline-flex justify-content-center bottom-menu-container">	
-			<ul class="list-inline">
+    <nav class="navbar navbar-dark scrolling-navbar fixed-bottom">
+        <div class="container d-inline-flex justify-content-center align-items-start bottom-menu-container" style="padding:0px;">	
+			<ul class="list-inline" style="margin:0px;">
 				<li class="list-inline-item bottom-menu-item">
                     <a href="#home">
-					    <span class="fa-stack fa-2x">
-						    <span class="fa fa-square fa-stack-2x glow-white" style="color:blue;"></span>
+					    <span class="fa-stack fa-2x bottom-menu-fixed-area">
+						    <span class="fa fa-square fa-stack-2x bottom-menu-box"></span>
 							<span class="fa fa-home fa-stack-2x bottom-menu-icon"></span>
 		                    <span class="fa-stack-2x bottom-menu-label">HOME</span>
 			            </span>
@@ -119,8 +122,8 @@
                 </li>
 				<li class="list-inline-item bottom-menu-item">
                     <a href="#about">
-					    <span class="fa-stack fa-2x">
-						    <span class="fa fa-square fa-stack-2x glow-white" style="color:blue;"></span>
+					    <span class="fa-stack fa-2x bottom-menu-fixed-area">
+						    <span class="fa fa-square fa-stack-2x bottom-menu-box"></span>
 							<span class="fa fa-info-circle fa-stack-2x bottom-menu-icon"></span>
 		                    <span class="fa-stack-2x bottom-menu-label">ABOUT</span>
 			            </span>
@@ -128,8 +131,8 @@
                 </li>
 				<li class="list-inline-item bottom-menu-item">
                     <a href="#projects">
-					    <span class="fa-stack fa-2x">
-						    <span class="fa fa-square fa-stack-2x glow-white" style="color:blue;"></span>
+					    <span class="fa-stack fa-2x bottom-menu-fixed-area">
+						    <span class="fa fa-square fa-stack-2x bottom-menu-box"></span>
 							<span class="fa fa-folder-open fa-stack-2x bottom-menu-icon"></span>
 		                    <span class="fa-stack-2x bottom-menu-label">PROJECTS</span>
 			            </span>
@@ -137,8 +140,8 @@
                 </li>
 			    <li class="list-inline-item bottom-menu-item">
                     <a href="#contact">
-					    <span class="fa-stack fa-2x">
-						    <span class="fa fa-square fa-stack-2x glow-white" style="color:blue;"></span>
+					    <span class="fa-stack fa-2x bottom-menu-fixed-area">
+						    <span class="fa fa-square fa-stack-2x bottom-menu-box"></span>
 							<span class="fa fa-envelope fa-stack-2x bottom-menu-icon"></span>
 		                    <span class="fa-stack-2x bottom-menu-label">CONTACT</span>
 			            </span>
@@ -582,25 +585,29 @@
 	
 	<!-- Size settings -->
 	<script>
-	$('button').on('click', function(e) {
-        $('html').css('font-size', $(this).attr('setting-font-size') + "%");
-    })
+
     </script>
 
 	<script>
+
 
 	//scale menu icons to prevent wrap on very small screens
 	function ScaleIcons(){
 	    var width = window.innerWidth;
 	    var percent = (Math.min(Math.max(parseInt(width), 290), 490) - 290)/200.0;
-	    var scale = ( percent * 0.25) + 0.75;
-		var margin = -0.6 +( percent * 2.4 );
+	    var scale = ( percent * 0.34) + 0.66;
+		var margin = -12 +( percent * 24 );
 		var items = $(".bottom-menu-item");
 	    items.css("transform","scale("+scale+","+scale+")");
-		items.css("margin-right",margin+"rem");
-		items.css("margin-left",margin+"rem");
+		items.css("margin","0 "+margin+"px 0 "+margin+"px");
 	    return;
 	}
+	
+    //size buttons
+    $("button").on("click", function(e) {
+        $("html").css("font-size", $(this).attr("setting-font-size") + "%");		
+		ScaleIcons();
+    })
 	
 	document.getElementById("width_px").innerHTML = window.innerWidth;
     document.getElementById("width_ems").innerHTML = window.innerWidth / parseFloat($("body").css("font-size"));
