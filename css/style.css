@@ -58,17 +58,19 @@ body,
 html { font-size: 62.5%; }
 body {  font-size: 1.6rem; }
 .headline-title { font-size:3.2rem;	}
-.skill-title { font-size: 2.4rem; }
-.skill-badge { font-size: 1.6rem; }
+.skill-title { font-size: 2.0rem; }
+.skill-badge { font-size: 1.4rem; }
 .navbar-brand { font-size: 1.6rem; }
 .developed-by-group { font-size: 1.6rem; }
 
 
 
 .top-menu-container { max-height: 80px; }
-.social-menu-item {   
+.social-menu-item { 
+    font-size: 18px;
+	line-height: 18px;
     text-shadow: 0 0 10px white;
-	margin: 0px 18px 0px 18px;
+	margin: 0px 10px 0px 10px;
 }
 
 .bottom-menu-container { height: 80px; }
