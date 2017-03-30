@@ -35,31 +35,6 @@ body
     bottom: 0;
 }
 
-.flex-center {
-    color: #fff;
-}
-
-
-
-.navbar {
-    background-color: transparent;
-}
-.page-footer {
-    background-color: transparent;
-}
-
-.scrolling-navbar {
-        -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
-        transition: background .5s ease-in-out, padding .5s ease-in-out;
-}
-
-
-@media only screen and (max-width: 768px) {
-
-}
-
-
 .color-white { color: white; }
 .color-facebook { color: rgb(59,89,152); }
 .color-twitter { color: rgb(0,182,241); }
@@ -73,72 +48,85 @@ body {  font-size: 1.6rem; }
 .headline-title { font-size:3.2rem;	}
 .skill-title { font-size: 2.0rem; }
 .skill-badge { font-size: 1.4rem; }
-.navbar-brand { font-size: 1.6rem; }
-.developed-by-group { font-size: 1.6rem; }
 
 
-
-.top-menu-container { 
+.navbar { background-color: transparent; }
+.top-menu-container, .bottom-menu-container {
     height:120px;
-    background-color: rgba(0,0,0,0);
-    background-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,1) 50%, rgba(0,0,0,0.5) 75%, rgba(0,0,0,0));
+    background-color: transparent;
     box-shadow: none;
+}
+.top-menu-container { 
+    background-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,1) 50%, rgba(0,0,0,0.5) 75%, rgba(0,0,0,0));
  }
+.bottom-menu-container { 
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.5) 25%, rgba(0,0,0,1) 50%, rgba(0,0,0,1));
+}
+
+
+.glow {
+    text-shadow: 0 0 8px white;
+}
+
 .social-menu-item { 
-    font-size: 18px;
-	line-height: 18px;
-    text-shadow: 0 0 10px white;
+    text-align: center;
+    font-size: 20px;
+	line-height: 20px; 
+    padding: 0;
 	margin: 0px 10px 0px 10px;
 }
-
-.buttonmask { 
-    text-align:center;
-	font-size: 80px;
-    color: transparent;
-     transition: all 0.25s ease 0s;
-}
-.buttonmask:hover{
-    color: rgba(255,255,255,0.33);
+.menu-item { 
+    text-align: center;
+    height:80px;
+    width:80px;
+    line-height:80px; 
+    padding: 0;
+    margin: 0px 10px 0px 10px;
 }
 
-.fa-stack { 
-    transition: all 0.25s ease 0s;
-}
-.fa-stack:hover{
-    transform: scale(1.1,1.1);
+
+html,
+.fa-stack,
+.menu-item,
+.menu-box,
+.menu-icon
+{ 
+    transition: all 0.3s ease 0s;
 }
 
-.bottom-menu-container { 
-    height:120px;
-    background-color: rgba(0,0,0,0);
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.5) 25%, rgba(0,0,0,1) 50%, rgba(0,0,0,1));
-    box-shadow: none;
-}
+.fa-stack:hover .menu-base { color:blue; transform: scale(1.15,1.15); }
+.fa-stack:hover .menu-box { color : white; }
+.fa-stack:hover .menu-icon { color: blue; }
+.fa-stack:hover .menu-label { color: blue; text-shadow: 0 0 8px white; }
+.social-menu-item:hover { transform: scale(1.15,1.15); }
 
-.bottom-menu-box {
+
+
+.menu-base,
+.menu-box
+{
 	text-align:center;
 	font-size: 80px;
-    color: blue;
-	text-shadow: 0 0 10px white;
 }
-.bottom-menu-icon {
+.menu-base { color:white; }
+.menu-box { color: blue; }
+.menu-icon {
 	text-align:center;
-	font-size : 54px;
+	font-size : 48px;
 	color: white;
 	margin: 10px 0px 0px 0px;
 }
-.bottom-menu-label { 
-
+.menu-label { 
     text-align:center;
-	height: 16px;
-	line-height: 16px;
-    font-size: 16px;
+	height: 14px;
+	line-height: 14px;
+    font-size: 14px;
     font-weight: bold; 
 	color: white;
-	text-shadow: 0 0 6px black;
-	margin: 64px 0 0 0;
+	text-shadow: 0 0 8px black;
+	margin: 60px 0 0 0;
 }
-.bottom-menu-fixed-area { height:80px; width:80px; line-height:80px; }
+
 
 
 
@@ -153,11 +141,6 @@ body {  font-size: 1.6rem; }
 .view { text-shadow: 0 0 0.4rem black; }
 .skill-title { text-shadow: 0 0 0.2rem black; }
 .skill-badge { text-shadow: 0 0 0.2rem black; }
-.navbar-brand { text-shadow: 0 0 0.4rem black; }
-.developed-by-group { text-shadow: 0 0 0.4rem black; }
-
-
-.developed-by-group { margin-top: 0.2rem; }
 .contact-form { margin-bottom: 15.0rem; }
 .self-portrait { margin-top: -4.0rem; }
 
