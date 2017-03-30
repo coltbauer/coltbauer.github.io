@@ -91,6 +91,23 @@ body {  font-size: 1.6rem; }
 	margin: 0px 10px 0px 10px;
 }
 
+.buttonmask { 
+    text-align:center;
+	font-size: 80px;
+    color: transparent;
+     transition: all 0.25s ease 0s;
+}
+.buttonmask:hover{
+    color: rgba(255,255,255,0.33);
+}
+
+.fa-stack { 
+    transition: all 0.25s ease 0s;
+}
+.fa-stack:hover{
+    transform: scale(1.1,1.1);
+}
+
 .bottom-menu-container { 
     height:120px;
     background-color: rgba(0,0,0,0);
