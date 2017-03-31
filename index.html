@@ -64,7 +64,7 @@
             <div class="mr-auto hidden-xs-down"> 
                 <img src="img/logo2.png" alt="" width="100">
             </div>
-            <div style="margin:0 auto;">			
+            <div class="mr-auto">			
                 <ul class="list-unstyled" 
                     style="margin:0px 0px 0px 0px;">
                     <li class="color-white"
@@ -105,22 +105,12 @@
                     </li>
                 </ul>	
             </div>            
-            <div class="ml-auto bottom-menu-item hidden-xs-down">
-                <a href="#contact">
-                    <span class="fa-stack fa-2x menu-item">
-                        <span class="fa fa-square fa-stack-2x menu-base glow"></span>     
-                        <span class="fa fa-square fa-stack-2x menu-box"></span>
-                        <span class="fa fa-gears fa-stack-2x menu-icon"></span>
-                        <span class="fa-stack-2x menu-label">SETTINGS</span>
-                    </span>
-                </a>
-            </div>
         </div>
     </nav>
     <!--/Header Navbar-->
     
     <!--Footer Navbar-->
-    <nav class="navbar fixed-bottom bottom-menu-container">
+    <nav class="navbar fixed-bottom bottom-menu-container hidden-md-up">
         <div class="container d-inline-flex justify-content-center mt-auto"
              style="padding:0;">   
             <ul class="list-inline"
@@ -165,17 +155,92 @@
                         </span>
                     </a>
                 </li>
+                <li class="list-inline-item">
+                    <a href="#contact">
+                        <span class="fa-stack fa-2x menu-item">
+                            <span class="fa fa-square fa-stack-2x menu-base glow"></span>     
+                            <span class="fa fa-square fa-stack-2x menu-box"></span>
+                            <span class="fa fa-gears fa-stack-2x menu-icon"></span>
+                            <span class="fa-stack-2x menu-label">SETTINGS</span>
+                        </span>
+                    </a>
+                </li>
             </ul>    
         </div>
     </nav>
     <!--/Footer Navbar-->
 
+    <!--Left Navbar-->
+    
+    <nav class="navbar fixed-left left-menu-container hidden-sm-down">
+        <div class="container flex-column m-auto"
+             style="padding:0;">   
+            <ul class="list-unstyled"
+                style="padding:0; margin:0;">
+                <li>
+                    <a href="#home">
+                        <span class="fa-stack fa-2x menu-item">
+                            <span class="fa fa-square fa-stack-2x menu-base glow"></span>     
+                            <span class="fa fa-square fa-stack-2x menu-box"></span>
+                            <span class="fa fa-home fa-stack-2x menu-icon"></span>
+                            <span class="fa-stack-2x menu-label">HOME</span>
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#about">
+                        <span class="fa-stack fa-2x menu-item">
+                            <span class="fa fa-square fa-stack-2x menu-base glow"></span>     
+                            <span class="fa fa-square fa-stack-2x menu-box"></span>
+                            <span class="fa fa-info-circle fa-stack-2x menu-icon"></span>
+                            <span class="fa-stack-2x menu-label">ABOUT</span>
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#work">
+                        <span class="fa-stack fa-2x menu-item">
+                            <span class="fa fa-square fa-stack-2x menu-base glow"></span>     
+                            <span class="fa fa-square fa-stack-2x menu-box"></span>
+                            <span class="fa fa-folder-open fa-stack-2x menu-icon"></span>
+                            <span class="fa-stack-2x menu-label">WORKS</span>
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#contact">
+                        <span class="fa-stack fa-2x menu-item">
+                            <span class="fa fa-square fa-stack-2x menu-base glow"></span>     
+                            <span class="fa fa-square fa-stack-2x menu-box"></span>
+                            <span class="fa fa-envelope fa-stack-2x menu-icon"></span>
+                            <span class="fa-stack-2x menu-label">CONTACT</span>
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#contact">
+                        <span class="fa-stack fa-2x menu-item">
+                            <span class="fa fa-square fa-stack-2x menu-base glow"></span>     
+                            <span class="fa fa-square fa-stack-2x menu-box"></span>
+                            <span class="fa fa-gears fa-stack-2x menu-icon"></span>
+                            <span class="fa-stack-2x menu-label">SETTINGS</span>
+                        </span>
+                    </a>
+                </li>
+            </ul>    
+        </div>
+    </nav>
+    <!--/Left Navbar-->
+
+
     <!--Mask-->
     <div class="view hm-black-strong">
 
-
-    <section id="home">
-        <div class="full-bg-img flex-center">           
+    <section id="home" class="full-bg-img">
+        <div class="flex-column content-container">     
+            <div class="divider-new">
+                <h2 class="h2-responsive">Home</h2>
+            </div>      
             <ul>
                 <li>
                     <h1 class="h1-responsive headline-title"><b>COLT BAUER LABS</b></h1>
@@ -228,8 +293,8 @@
 
 
     <!--About-->
-    <section id="about">
-    <div class="full-bg-img flex-column">
+    <section id="about" class="full-bg-img">
+    <div class="flex-column content-container">
         <div class="divider-new">
             <h2 class="h2-responsive">About</h2>
         </div>
@@ -254,9 +319,9 @@
     <!--Section: About-->
 	
 
-    <!--Section: Projects-->
-    <section id="work">
-    <div class="full-bg-img flex-column"> 
+    <!--Section: Work-->
+    <section id="work" class="full-bg-img">
+    <div class="flex-column content-container"> 
         <div class="divider-new">
             <h2 class="h2-responsive">Projects</h2>
         </div>
@@ -334,8 +399,8 @@
 
 
     <!--Section: Contact-->
-    <section id="contact">
-        <div class="full-bg-img flex-column">
+    <section id="contact" class="full-bg-img">
+        <div class="flex-column content-container">
             <div class="divider-new">
                 <h2 class="h2-responsive">Contact</h2>
             </div>

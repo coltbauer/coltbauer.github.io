@@ -19,11 +19,18 @@ body
 
 
 .view {
+    width: 100%;
     background: url("../img/background.jpg")no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    z-index: -1;
+}
+
+.fixed-left {
+    position: fixed;
+    height:100%; 
 }
 
 .color-white { color: white; }
@@ -42,17 +49,23 @@ body {  font-size: 1.6rem; }
 
 
 .navbar { background-color: transparent; }
-.top-menu-container, .bottom-menu-container {
-    height:120px;
+.top-menu-container, .bottom-menu-container, .left-menu-container {
     background-color: transparent;
     box-shadow: none;
 }
 .top-menu-container { 
+    height:120px;
     background-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,1) 50%, rgba(0,0,0,0.5) 75%, rgba(0,0,0,0));
  }
-.bottom-menu-container { 
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.5) 25%, rgba(0,0,0,1) 50%, rgba(0,0,0,1));
+.bottom-menu-container {
+    height:120px; 
+    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,1) 50%, rgba(0,0,0,0.5) 75%, rgba(0,0,0,0));
 }
+.left-menu-container {
+    width:120px;
+    background-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,1) 50%, rgba(0,0,0,0.5) 75%, rgba(0,0,0,0));
+}
+
 
 
 .glow {
@@ -72,7 +85,7 @@ body {  font-size: 1.6rem; }
     width:80px;
     line-height:80px; 
     padding: 0;
-    margin: 0px 10px 0px 10px;
+    margin: 0px 0px 0px 0px;
 }
 
 /*hover effects*/
@@ -133,7 +146,7 @@ section { transition: opacity 0.3s ease-in-out 0s; }
 .view { text-shadow: 0 0 0.4rem black; }
 .skill-title { text-shadow: 0 0 0.2rem black; }
 .skill-badge { text-shadow: 0 0 0.2rem black; }
-.contact-form { margin-bottom: 15.0rem; }
 .self-portrait { margin-top: -4.0rem; }
-.flex-column { margin-top: 60px; }
 
+.content-container { padding: 50px 10px 120px 10px; }
+@media (min-width: 768px) { .content-container { padding: 50px 10px 10px 120px;} }
