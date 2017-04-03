@@ -25,12 +25,12 @@ body
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    z-index: -1;
 }
 
 .fixed-left {
     position: fixed;
     height:100%; 
+    z-index: 1;
 }
 
 .color-white { color: white; }
