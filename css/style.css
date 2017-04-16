@@ -4,12 +4,12 @@ html,
 body,
 .view {
     height: 100%;
+    background-color: black;
+	color: white;
 }
 
-body
-{
-	background-color: black;
-	color: white;
+* {
+  box-sizing: border-box;
 }
 
 .card {
