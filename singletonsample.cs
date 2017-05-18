@@ -12,7 +12,6 @@ public class SoundManager : MonoBehaviour {
 
     public static SoundManager SM = null;
 
-    // Use this for initialization
     void Awake ()
     {
         if(SM == null)
